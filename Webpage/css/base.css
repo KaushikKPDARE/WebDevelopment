@@ -1,0 +1,84 @@
+﻿/*************************************
+ MIX ONLINE v2 http://www.visitmix.com
+ Base Stylesheet
+ -------------------------------------
+ This file contains all the base styles
+ for the lab microsites. This includes, 
+ body, footer and upsell bar selectors.
+ 
+ MIX Online Crew: 
+ -------------------------------------
+ 1. This is a required stylesheet and
+ must be included in all lab pages. 
+ You may override the styles if they
+ don't match your colors/typography.
+ 2. Do not modify this stylesheet!
+ It must be included as is. If you'd 
+ like to present elements different, 
+ override the styles in your own style
+ sheet. 
+ 
+ Peepers: 
+ -------------------------------------
+ Feel free to employ the techniques 
+ used in this CSS file. A link back 
+ to us is always appreciated but not 
+ required. 
+ 
+ *************************************/
+/* @group upsell */
+#upsell {
+	color: #fff;
+	font-size: 11px;
+}
+#upsell a {
+	background-color: #000;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+#upsell a:link, #upsell a:visited {
+	background-color: #000;
+	color: #fff;
+}
+#upsell a:hover, #upsell a:active {
+	background-color: #d8d8d8;
+	color: #000;
+}
+#upsell a span {
+	display: block;
+	width: 940px;
+	text-align: right;
+	margin: 0 auto;
+	padding: .5em 0 .5em 0;
+}
+#upsell a span span {
+	display: inline;
+	font-style: italic;
+	font-family: Georgia, Cambria, "Times New Roman";
+}
+
+/* @end */
+/* @group footer */
+#footer {
+	width: 940px;
+	margin: 0 auto;
+	font-size: 11px;
+	margin-top: 80px;
+	display: block;
+	height: 80px;
+}
+#footer p, #footer ul {
+	float: right;
+	display: inline;
+	margin: 0;
+}
+#footer ul {
+	float: left;
+	display: inline;
+}
+#footer ul li {
+	display: inline;
+}
+
+/* @end */

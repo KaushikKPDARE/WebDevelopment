@@ -1,0 +1,85 @@
+﻿#hero{
+	width:600px;
+	height:180px;
+	background-image:url('../images/333background.jpg');
+	background-repeat:repeat;
+	overflow:hidden;
+	position:relative;
+
+}
+
+#horizontalLine{
+	display:none;
+	width:629px;
+	height:19px;
+	margin-top:150px;
+	position:absolute;
+overflow:hidden;
+}
+
+#slide1{
+	display:block;
+}
+
+#slide1text{
+	width:323px;
+	height:100px;
+	position:relative;
+	margin:10px 0 0 0px;
+}
+
+#bigGuyPointing{
+	width:535px;
+	height:551px;
+	position:relative;
+	margin:-120px 0 0 250px;
+}
+
+#slide2{
+	display:none;
+}
+
+#slide2text{
+	width:209px;
+	height:105px;
+	position:absolute;
+	margin:40px 40px 40px 140px;
+}
+
+#standingRobot{
+	width:535px;
+	height:551px;
+	position:absolute;
+	margin:6px 0 0 30px;
+}
+
+#vis1{
+	position:absolute;
+	width:249px;
+	height:148px;
+	background-image:url('../images/robotHero/line.png');
+	background-repeat:no-repeat;
+	margin:22px 20px 20px 380px;
+	
+}
+
+#vis2{
+	position:absolute;
+	width:249px;
+	height:148px;
+	background-image:url('../images/robotHero/pie.png');
+	background-repeat:no-repeat;
+	margin:22px 20px 20px 650px;
+	
+}
+#slide3{
+	display:none;
+}
+
+#slide3text{
+	width:209px;
+	height:105px;
+	position:absolute;
+	margin:40px 40px 40px 140px;
+}
+
